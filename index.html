@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Linktree Gamer</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            background:
+                radial-gradient(circle at top, #312e81 0%, #111827 35%, #020617 75%);
+            min-height: 100vh;
+        }
+
+        .glass {
+            background: rgba(15, 23, 42, 0.65);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.10);
+        }
+
+        .link-button {
+            transition: all 0.3s ease;
+        }
+
+        .link-button:hover {
+            transform: translateY(-4px) scale(1.01);
+            border-color: rgba(139, 92, 246, 0.8);
+            box-shadow: 0 10px 30px rgba(124, 58, 237, 0.25);
+        }
+
+        .avatar {
+            box-shadow:
+                0 0 0 4px rgba(139, 92, 246, 0.25),
+                0 0 40px rgba(139, 92, 246, 0.35);
+        }
+    </style>
+</head>
+
+<body class="text-white">
+
+    <!-- Container principal -->
+    <main class="min-h-screen flex justify-center px-5 py-10">
+
+        <div class="w-full max-w-xl">
+
+            <!-- Perfil -->
+            <section class="text-center">
+
+                <!-- Foto -->
+                <div class="relative inline-block">
+
+                    <img
+                        src="https://i.pravatar.cc/180?img=12"
+                        alt="Foto do perfil"
+                        class="avatar w-28 h-28 rounded-full object-cover border-4 border-violet-500"
+                    >
+
+                    <!-- Status -->
+                    <span
+                        class="absolute bottom-1 right-2 w-5 h-5 bg-green-500 border-4 border-slate-950 rounded-full">
+                    </span>
+
+                </div>
+
+                <!-- Nome -->
+                <h1 class="mt-5 text-3xl font-bold">
+                    Lucas Gamer
+                </h1>
+
+                <!-- Username -->
+                <p class="text-violet-400 font-medium mt-1">
+                    @lucasgamer
+                </p>
+
+                <!-- Descrição -->
+                <p class="text-gray-400 mt-4 leading-relaxed">
+                    🎮 Criador de conteúdo gamer<br>
+                    🔥 Lives, vídeos e muita gameplay
+                </p>
+
+            </section>
+
+
+            <!-- Links -->
+            <section class="mt-8 space-y-4">
+
+                <!-- YouTube -->
+                <a
+                    href="#"
+                    class="link-button glass rounded-2xl p-4 flex items-center gap-4"
+                >
+
+                    <div
+                        class="w-12 h-12 rounded-xl bg-red-500/20 flex items-center justify-center text-2xl">
+                        ▶
+                    </div>
+
+                    <div class="flex-1">
+                        <h2 class="font-semibold text-lg">
+                            YouTube
+                        </h2>
+
+                        <p class="text-sm text-gray-400">
+                            Gameplay, desafios e vídeos
+                        </p>
+                    </div>
+
+                    <span class="text-gray-500 text-xl">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Twitch -->
+                <a
+                    href="#"
+                    class="link-button glass rounded-2xl p-4 flex items-center gap-4"
+                >
+
+                    <div
+                        class="w-12 h-12 rounded-xl bg-purple-500/20 flex items-center justify-center text-2xl">
+                        🎥
+                    </div>
+
+                    <div class="flex-1">
+                        <h2 class="font-semibold text-lg">
+                            Twitch
+                        </h2>
+
+                        <p class="text-sm text-gray-400">
+                            Lives quase todos os dias
+                        </p>
+                    </div>
+
+                    <span class="text-gray-500 text-xl">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Discord -->
+                <a
+                    href="#"
+                    class="link-button glass rounded-2xl p-4 flex items-center gap-4"
+                >
+
+                    <div
+                        class="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center text-2xl">
+                        💬
+                    </div>
+
+                    <div class="flex-1">
+                        <h2 class="font-semibold text-lg">
+                            Discord
+                        </h2>
+
+                        <p class="text-sm text-gray-400">
+                            Entre para a nossa comunidade
+                        </p>
+                    </div>
+
+                    <span class="text-gray-500 text-xl">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Instagram -->
+                <a
+                    href="#"
+                    class="link-button glass rounded-2xl p-4 flex items-center gap-4"
+                >
+
+                    <div
+                        class="w-12 h-12 rounded-xl bg-pink-500/20 flex items-center justify-center text-2xl">
+                        📸
+                    </div>
+
+                    <div class="flex-1">
+                        <h2 class="font-semibold text-lg">
+                            Instagram
+                        </h2>
+
+                        <p class="text-sm text-gray-400">
+                            Bastidores e novidades
+                        </p>
+                    </div>
+
+                    <span class="text-gray-500 text-xl">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- TikTok -->
+                <a
+                    href="#"
+                    class="link-button glass rounded-2xl p-4 flex items-center gap-4"
+                >
+
+                    <div
+                        class="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center text-2xl">
+                        ♪
+                    </div>
+
+                    <div class="flex-1">
+                        <h2 class="font-semibold text-lg">
+                            TikTok
+                        </h2>
+
+                        <p class="text-sm text-gray-400">
+                            Clipes e momentos engraçados
+                        </p>
+                    </div>
+
+                    <span class="text-gray-500 text-xl">
+                        →
+                    </span>
+
+                </a>
+
+
+                <!-- Contato -->
+                <a
+                    href="mailto:contato@email.com"
+                    class="block text-center mt-6 py-4 rounded-2xl bg-violet-600 hover:bg-violet-500 transition font-semibold shadow-lg shadow-violet-900/30"
+                >
+                    ✉️ Entre em contato
+                </a>
+
+            </section>
+
+
+            <!-- Redes sociais -->
+            <section class="flex justify-center gap-5 mt-8">
+
+                <a
+                    href="#"
+                    class="w-11 h-11 glass rounded-full flex items-center justify-center hover:bg-violet-600 transition">
+                    𝕏
+                </a>
+
+                <a
+                    href="#"
+                    class="w-11 h-11 glass rounded-full flex items-center justify-center hover:bg-violet-600 transition">
+                    ◎
+                </a>
+
+                <a
+                    href="#"
+                    class="w-11 h-11 glass rounded-full flex items-center justify-center hover:bg-violet-600 transition">
+                    ▶
+                </a>
+
+            </section>
+
+
+            <!-- Rodapé -->
+            <footer class="text-center mt-10">
+
+                <p class="text-gray-500 text-sm">
+                    © 2026 Lucas Gamer
+                </p>
+
+                <p class="text-gray-600 text-xs mt-2">
+                    Feito com HTML + Tailwind CSS
+                </p>
+
+            </footer>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
+```
